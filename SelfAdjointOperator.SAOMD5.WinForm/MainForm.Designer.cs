@@ -172,7 +172,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
-            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SAOMD5";
             this.TopMost = true;

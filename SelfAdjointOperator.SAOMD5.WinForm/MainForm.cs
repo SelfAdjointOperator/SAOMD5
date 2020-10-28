@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
 
 namespace SelfAdjointOperator.SAOMD5.WinForm
 {
@@ -28,8 +27,7 @@ namespace SelfAdjointOperator.SAOMD5.WinForm
                 }
                 else
                 {
-                    SystemSounds.Asterisk.Play();
-                    MessageBox.Show("No file selected!");
+                    MessageBox.Show(this,"No file selected!\nClick OK to close.","SAOMD5",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                     Environment.Exit(1);
                 }
             }
